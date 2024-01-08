@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta viewport="width=device-width, initial-scale=1.0">
+  <link rel ="stylesheets" href="surveyform.css">
+<head></head>
+    <h1 id ="title">
+      We want to know what you think of AI.
+      </h1>
+    <body>
+      <main>
+        <p id ="description">
+          We will protect your information.
+          <br> We promise!
+           <fieldset>
+           <form id ="survey-form">
+            <fieldset> 
+            <b><label id="name-label" >Name:<input type="text" id="name" placeholder="Enter your first name." required ></label></b>
+            
+           <b> <label id ="email-label">Email:<input type="email" id ="email" placeholder= "Enter your email" required></label></b>
+            
+           <b> <label id="number-label">Age:<input id ="number" type="number" placeholder="minimum 12" min="12" max="120">     </label></b>
+               
+            <b><label>How did you hear about us?</label></b>
+            <select id ="dropdown">
+              <option>Family, friends etc</option>
+             <option>Search engines</option>
+              <option>Social Media</option>
+              <option>Other
+            </select>
+           
+             <fieldset> 
+          <b><label>Do you think AI will replace humans? </label></b>
+            
+          <label for="yes"><input type="radio" id="yes" name="yes-no" value="yes" checked class="inline" >Yes</label>
+         
+          <label for="no"> <input type="radio" id="no" value="no" name="yes-no" class="inline">No</label>
+          
+          <label for="noidea"><input type="radio" class="inline" id="noidea" name="yes-no" value="no-idea">I do not know</label>
+         
+         <b> <label>Check some or all of the options below.</label></b>
+          <label for="1"><input id ="1" type="checkbox" class="inline" value="adapt">AI will be like any other technology; we will adapt.</label>
+          
+          <label for="2"><input id ="2" type="checkbox" class="inline" value="upgrade">AI will help us in upgrading our processes</label>
+          
+          <label for="3"><input id ="3" type="checkbox" class="inline" value="jobloss">Huge layoffs will follow for human workers</label>
+          
+          <label for="4"><input id ="4" type="checkbox" class="inline" value="chaos">There will be a race to use AI that will followed by a chaos.</label>
+          
+          <label for="5"><input id ="5" type="checkbox" class="inline" value="deadly">AI will prove deadly in the short and long term.</label>
+           </fieldset>
+<fieldset> 
+      <b><label for="textarea"> Provide additional comments:</label></b>
+          <textarea id="textarea" value="comments"></textarea>
+          </fieldset>
+      <input id="submit" type="submit" value="Submit">
+           </fieldset>
+
+            </form>
+        </p>
+        </main>
+      
+      </body>
+</html>
